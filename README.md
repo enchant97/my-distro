@@ -1,12 +1,12 @@
-# enchant97s custom arch distro
-This distro is intended for my personal use, however should include common installed programs and themes so anyone can really use it.
+# My Distro
+A distro made by me (Leo Spratt). Built specifically for my personal use, although anyone can really use it either for their own install or just for learning.
 
 > Use this project at your own risk!
 
 ## Info
-- Live environment creds are: live:live, root has no password
-- This repo uses git submodules
-- Includes both xfce & i3
+- Live environment creds are: live:live
+- Gnome desktop environment
+- Uses Arch
 - All temp files (apart from built isos) are stored in /tmp/custom-arch-build
 
 ## Creating ISO
@@ -45,3 +45,4 @@ Add built packages into repository called "custom".
 Make the iso.
 
 ## Known Bugs
+- Disabling the custom repo in `/pacman.conf` for build is required; if no aur packages have been specified
