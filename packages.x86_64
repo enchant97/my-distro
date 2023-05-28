@@ -1,0 +1,224 @@
+## releng ##
+alsa-utils
+amd-ucode
+arch-install-scripts
+archinstall
+b43-fwcutter
+base
+bind
+brltty
+broadcom-wl
+btrfs-progs
+clonezilla
+cloud-init
+cryptsetup
+darkhttpd
+ddrescue
+dhclient
+# dhcpcd
+diffutils
+dmidecode
+dmraid
+dnsmasq
+dosfstools
+e2fsprogs
+edk2-shell
+efibootmgr
+espeakup
+ethtool
+exfatprogs
+f2fs-tools
+fatresize
+fsarchiver
+gnu-netcat
+gpart
+gpm
+gptfdisk
+# grml-zsh-config
+grub
+hdparm
+hyperv
+intel-ucode
+irssi
+iw
+iwd
+jfsutils
+kitty-terminfo
+less
+lftp
+libfido2
+libusb-compat
+linux
+linux-atm
+linux-firmware
+linux-firmware-marvell
+livecd-sounds
+lsscsi
+lvm2
+lynx
+man-db
+man-pages
+mc
+mdadm
+memtest86+
+memtest86+-efi
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+modemmanager
+mtools
+# nano
+nbd
+ndisc6
+nfs-utils
+nilfs-utils
+nmap
+ntfs-3g
+nvme-cli
+open-iscsi
+open-vm-tools
+openconnect
+openssh
+openvpn
+partclone
+parted
+partimage
+pcsclite
+ppp
+pptpclient
+pv
+qemu-guest-agent
+refind
+reflector
+reiserfsprogs
+rp-pppoe
+rsync
+rxvt-unicode-terminfo
+screen
+sdparm
+sg3_utils
+smartmontools
+sof-firmware
+squashfs-tools
+sudo
+syslinux
+systemd-resolvconf
+tcpdump
+terminus-font
+testdisk
+tmux
+tpm2-tss
+udftools
+usb_modeswitch
+usbmuxd
+usbutils
+vim
+virtualbox-guest-utils-nox
+vpnc
+wireless-regdb
+wireless_tools
+wpa_supplicant
+wvdial
+xfsprogs
+xl2tpd
+# zsh
+
+## System ##
+archiso
+devtools
+dkms
+linux-headers
+# For OBS Studio Virtual Cam
+v4l2loopback-dkms
+grub-btrfs
+os-prober
+efitools
+hwdetect
+hwinfo
+gparted
+
+## Virtual File System Handling ##
+gvfs
+gvfs-afc
+gvfs-smb
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+
+## Network ##
+# network manager (replaces dhcpcd)
+networkmanager
+network-manager-applet
+nm-connection-editor
+# firewall
+ufw
+gufw
+
+## Bluetooth ##
+bluez
+bluez-utils
+
+## Audio ##
+pipewire
+pipewire-media-session
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+gst-plugin-pipewire
+pavucontrol
+
+## Package Manager ##
+paru
+chaotic-keyring
+chaotic-mirrorlist
+
+## Graphics Drivers ##
+# AMD
+xf86-video-amdgpu
+xf86-video-ati
+# Intel
+xf86-video-intel
+# Nvidia
+xf86-video-nouveau
+
+## Display+Login+Window ##
+gnome
+gnome-extra
+
+## Fonts ##
+ttf-firacode-nerd
+otf-firamono-nerd
+ttf-hack-nerd
+# emoji support
+noto-fonts-emoji
+
+## Extras For Applications ##
+
+## Console Apps ##
+# fancy terminal prompts
+starship
+# faster neofetch alternative
+fastfetch-git
+# smart shell
+fish
+# alternative to ls, cat
+exa
+bat
+# pretty htop
+btop
+
+## Applications ##
+alacritty
+brave
+libreoffice-fresh
+vlc
+gnome-firmware
+cups
+xarchiver
+# manage backups
+timeshift
+timeshift-autosnap
+font-manager
+
+## Installer (calamares) ##
+calamares
